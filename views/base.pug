@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    title Vaishali Dance Academy
+    block scripts
+    block style 
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src = "/static/img/logo.png")
+                | VDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact]
+
+    block content
+    footer#footer
+        div Copyright © <strong>VaishaliDanceAcademy</strong>. All Rights Reserved.
+        div.small Designed by <strong>Anzar Ahmad</strong>
+        div.social-links
+            a(href="https://twitter.com/saad_anzar") Twitter | 
+            a(href="https://www.linkedin.com/in/anzarahmad") LinkedIn | 
+            a(href="https://www.facebook.com/saad.anzu") Facebook | 
+            a(href="https://www.instagram.com/saad.anzar") Instagram

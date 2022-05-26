@@ -1,0 +1,66 @@
+doctype html
+html        
+  head
+    title Vaishali Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src = "/static/img/logo.png")
+                | VDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact]
+
+    section#picSection
+        div Welcome to Vaishali's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+        h1 Our Mission
+        div.card
+            h4 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src = "/static/img/1.png")
+                div.card-content
+                    p This is the best academy of the universe
+        div.card
+            h4 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src = "/static/img/2.png")
+                div.card-content
+                    p This is the best academy of the universe
+        div.card
+            h4 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src = "/static/img/3.png")
+                div.card-content
+                    p This is the best academy of the universe
+
+    section#sponsorSection
+        h1 Our Sponsors
+        #sponsor
+            img(src="./static/img/logo1.png", alt="Sponsor Image", class="spImg")
+            img(src="./static/img/logo2.png", alt="Sponsor Image", class="spImg")
+            img(src="./static/img/logo3.png", alt="Sponsor Image", class="spImg")
+            img(src="./static/img/logo4.png", alt="Sponsor Image", class="spImg")
+
+    footer#footer
+        div Copyright © <strong>VaishaliDanceAcademy</strong>. All Rights Reserved.
+        div.small Designed by <strong>Anzar Ahmad</strong>
+        div.social-links
+            a(href="https://twitter.com/saad_anzar") Twitter
+            a(href="https://www.linkedin.com/in/anzarahmad") LinkedIn
+            a(href="https://www.facebook.com/saad.anzu") Facebook
+            a(href="https://www.instagram.com/saad.anzar") Instagram
+
+    
+    script
+      include ../static/index.js

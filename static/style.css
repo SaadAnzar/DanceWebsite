@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#logo{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 0 14px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 40px;
+    filter: invert(1);
+    
+}
+
+#navbar{
+    /* background-color: #192f32; */
+    background-color: rgb(196, 170, 170);
+    padding: 20px;
+    
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#picSection{
+    font-family: 'Lacquer', cursive;
+    padding-bottom: 150px;
+    background: url(/static/a.jpg) center/cover no-repeat;
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+}
+#picSection div.small{
+    font-family: 'Lacquer', cursive;
+    font-size: 2rem;
+    color: rgb(165, 151, 133);
+    padding: 12px;
+}
+
+#missionSection{
+    height: 300px;
+    background-color: #8DBAFE;
+    color: white;
+}
+
+#missionSection h1{
+    font-family: 'Lacquer', cursive;
+    padding: 13px 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 25%;
+    margin: 0px 63px;
+    height: 200px;
+    background-color: #efe9e98f
+}
+
+.card h4{
+    font-family: 'Lacquer', cursive;
+    text-align: center;
+    margin: 5px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+}
+.card-img img{
+    height: inherit;
+}
+
+#sponsorSection{
+    height: 200px;
+    background-color: #ecc9de;
+    color: white;
+}
+
+#sponsorSection h1{
+    font-family: 'Lacquer', cursive;
+    padding: 13px 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#sponsor {
+    height: 85px;
+    max-width: 1000px;
+    margin: 0px 500px;
+}
+
+.spImg{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    height: 60px;
+    background-color: rgb(196, 170, 170);
+    color: #192f32;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+}
+
+#footer div.small{
+    color: #192f32;
+    font-family: Arial, Helvetica, sans-serif;
+}

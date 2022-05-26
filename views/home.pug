@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts
+    script(src="../static/index.js")
+
+block style
+    style
+      include ../static/style.css
+
+block content
+    section#picSection
+        div Welcome to Vaishali's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+        h1 Our Mission
+        div.card
+            h4 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src = "/static/img/1.png")
+                div.card-content
+                    p This is the best academy of the universe
+        div.card
+            h4 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src = "/static/img/2.png")
+                div.card-content
+                    p This is the best academy of the universe
+        div.card
+            h4 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src = "/static/img/3.png")
+                div.card-content
+                    p This is the best academy of the universe
+
+    section#sponsorSection
+        h1 Our Sponsors
+        #sponsor
+            img(src="./static/img/logo1.png", alt="Sponsor Image", class="spImg")
+            img(src="./static/img/logo2.png", alt="Sponsor Image", class="spImg")
+            img(src="./static/img/logo3.png", alt="Sponsor Image", class="spImg")
+            img(src="./static/img/logo4.png", alt="Sponsor Image", class="spImg")
